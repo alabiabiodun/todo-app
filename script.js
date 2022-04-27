@@ -36,7 +36,7 @@ function addListAfterClick(){
     }    
 }
 
-function addListAfterKeypress(){
+function addListAfterKeypress(event){
     if (inputLength() > 0 && event.keyCode === 13){
         createListElement();        
     } 
