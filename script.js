@@ -40,7 +40,7 @@ function removeElement(event){
 
 function updateDatabase(){
     var value = input.value;
-    xx = database.toString();
+    var xx = database.toString();
     duplicate = xx.toLowerCase().includes(value.toLowerCase());
     if (database.length > 0 && duplicate === true){
         alert('No duplicate entry......');
