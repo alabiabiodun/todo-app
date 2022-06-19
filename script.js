@@ -60,7 +60,7 @@ function addListAfterClick(){
         updateDatabase();
         createListElement();
         input.value = "";
-        deleteToDoListItem();
+        //deleteToDoListItem();
     }       
     else {
         alert("Please Enter a Task");        
@@ -72,7 +72,7 @@ function addListAfterKeypress(event){
         updateDatabase();
         createListElement();
         input.value = "";
-        deleteToDoListItem();       
+        //deleteToDoListItem();       
     } 
 }
 
